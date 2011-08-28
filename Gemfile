@@ -11,7 +11,9 @@ gem 'sqlite3'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'webrat'
 end
 group :test, :test do
   gem 'rspec'
+  gem 'webrat'
 end
